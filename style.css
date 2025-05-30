@@ -1,0 +1,54 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #1e1e1e;
+  color: #f2f2f2;
+}
+
+header.hero {
+  background: url('hero.jpg') no-repeat center center/cover;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+header.hero img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about p, .contact p {
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  color: #ccc;
+}
